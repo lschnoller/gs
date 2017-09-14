@@ -1,0 +1,54 @@
+8
+
+dir
+41
+http://97.74.206.70/repos/GS/trunk/inc/fckeditor/editor/filemanager/browser/default/js
+http://97.74.206.70/repos
+
+
+
+2010-06-18T02:02:23.842636Z
+27
+svnuser2
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+abc8b6f5-aa08-41ee-a8d2-b3a099ed1233
+
+fckxml.js
+file
+
+
+
+
+2010-06-25T22:46:34.000000Z
+3571a8e1368e6cc6f455d1e74a82ff2b
+2010-06-18T02:02:23.842636Z
+27
+svnuser2
+has-props
+
+common.js
+file
+
+
+
+
+2010-06-25T22:46:34.000000Z
+0e4df1bd415f148471c044a5835b21b7
+2010-06-18T02:02:23.842636Z
+27
+svnuser2
+has-props
+

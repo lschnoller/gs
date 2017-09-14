@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 27
+/repos/!svn/ver/30/GS/trunk
+END
+.project
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/repos/!svn/ver/26/GS/trunk/.project
+END
+.buildpath
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/repos/!svn/ver/28/GS/trunk/.buildpath
+END
+.htaccess
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/repos/!svn/ver/27/GS/trunk/.htaccess
+END
+indexOLD.php
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/repos/!svn/ver/27/GS/trunk/indexOLD.php
+END
+index.php
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/repos/!svn/ver/27/GS/trunk/index.php
+END

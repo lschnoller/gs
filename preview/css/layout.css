@@ -1,0 +1,425 @@
+@CHARSET "UTF-8";
+html{
+	background-color: #dee6d5;
+}
+body{
+	background-image: url("../design/bg.png");
+	background-repeat: repeat-x;
+	background-color: #dee6d5;
+}
+
+#hd{
+	height: 530px;
+	background-color: #ffffff;
+}
+#bd{
+	background-color: #ffffff;
+	padding-bottom: 30px;
+}
+#ft{
+	background-image: url("../design/footer-bg.png");
+	background-repeat:no-repeat;
+	background-position: top;
+}
+#logo-gs{
+	background-image: url("../design/logo-gs.png");
+	background-repeat:no-repeat;
+	width: 411px;
+	height: 71px;
+	margin-top: 15px;
+	margin-left: 30px;
+	float: left;
+	display: block;
+}
+#logo-mba{
+	background-image: url("../design/logo-mba.png");
+	background-repeat:no-repeat;
+	width: 274px;
+	height: 74px;
+	margin-top: 5px;
+	margin-right: 30px;
+	float: right;
+	display: block;
+}
+.clear{
+	clear: both;
+}
+
+#head-left-menu{
+	margin-left: 20px;
+	padding-top: 10px;
+	width: 430px;
+}
+#head-left-menu li{
+	list-style: none;
+	float: left;
+	padding: 0 5px;
+}
+
+#head-left-menu a{
+	font-family: "Century gothic";
+	font-size: 10pt;
+	color: #666666;
+	text-decoration: none;
+}
+#head-left-menu a:HOVER{
+	color: #FF6600;
+}
+.left-border{
+	border-left: solid #666666 1px;
+}
+
+/* big images*/
+#top-image{
+	margin-top:10px;
+	width: 950px;
+	height: 320px;
+	position: relative;
+	background-repeat:no-repeat;
+	font-family: "Century gothic";
+	color: #fff;
+}
+.temp-image{
+	background-image: url("../design/temp-top-image.jpg");
+}
+.mba-big{
+	background-image: url("../design/mba-big.jpg");
+	
+}
+.mba-big h1{
+	font-size: 40px;
+	margin-left: 250px;
+	padding-top: 50px;
+}
+.mba-big h2{
+	font-size: 18px;
+	margin-left: 400px;
+}
+
+.meditacion-big{
+	background-image: url("../design/meditacion-big.jpg");
+}
+.meditacion-big h1{
+	font-size: 35px;
+	margin-left: 300px;
+	padding-top: 50px;
+}
+.meditacion-big p{
+	font-size: 14px;
+	margin-left: 400px;
+}
+.meditacion-big h2{
+	font-size: 18px;
+	margin-left: 600px;
+}
+
+.top-image-bottom{
+	background-image: url("../design/big-image-bottom.png");
+	background-repeat:no-repeat;
+	width: 950px;
+	height: 118px;
+	position: absolute;
+	top: 250px;
+}
+.meditacion-instructorado-big{
+background-image: url("../design/meditacion-instructorado-big.jpg");
+}
+.meditacion-instructorado-big h1{
+	font-size: 15px;
+	margin-left: 300px;
+	padding-top: 50px;
+}
+.meditacion-instructorado-big h2{
+	font-size: 40px;
+	margin-left: 400px;
+}
+.cursos-big{
+	background-image: url("../design/cursos-big.jpg");
+}
+.cursos-big h1{
+	font-size: 40px;
+	margin-left: 100px;
+	padding-top: 50px;
+	color: #FF6600;
+}
+.cursos-big h2{
+	font-size: 18px;
+	margin-left: 120px;
+	color: #666600;
+}
+
+.counceling-big{
+	background-image: url("../design/counceling-big.jpg");
+}
+.cursos-a-distancia-big{
+	background-image: url("../design/cursos-a-distancia-big.jpg");
+}
+.counceling-big-ayurveda{
+	background-image: url("../design/counceling-big-ayurveda.jpg");
+}
+
+.counceling-big h1, .counceling-big-ayurveda h1,.instructorado-big h1,.cursos-a-distancia-big h1{
+	font-size: 30px;
+	margin-left: 100px;
+	padding-top: 50px;
+}
+.counceling-big p, .counceling-big-ayurveda p,.instructorado-big p,.cursos-a-distancia-big p{
+	font-size: 15px;
+	margin-left: 130px;
+	padding-top: 10px;
+}
+
+.seminarios-big{
+	background-image: url("../design/seminarios-big.jpg");
+}
+.seminarios-big h1{
+	font-size: 40px;
+	margin-left: 500px;
+	padding-top: 100px;
+}
+.seminarios-big h2{
+	font-size: 20px;
+	margin-left: 570px;
+}
+
+.contactenos-big{
+	background-image: url("../design/contactenos-big.jpg");
+}
+.contactenos-big h1{
+	font-size: 40px;
+	margin-left: 400px;
+	padding-top: 100px;
+}
+
+.charlas-talleres-big{
+	background-image: url("../design/charlas-talleres-big.jpg");
+}
+.charlas-talleres-big h1,.calendario-big h1{
+	font-size: 40px;
+	margin-left: 500px;
+	padding-top: 140px;
+}
+.charlas-talleres-big h2,.calendario-big h2{
+	font-size: 20px;
+	margin-left: 570px;
+}
+
+.nuestro-centro-big{
+	background-image: url("../design/nuestro-centro-big.jpg");
+}
+.nuestro-centro-big h1{
+	font-size: 40px;
+	margin-left: 50px;
+	padding-top: 50px;
+}
+.nuestro-centro-big h2{
+	font-size: 20px;
+	margin-left: 50px;
+}
+.nuestro-centro-big p{
+	font-size: 15px;
+	margin-left: 100px;
+}
+
+.equipo-big{
+	background-image: url("../design/equipo-big.jpg");
+}
+.equipo-big h1{
+	font-size: 20px;
+	margin-left: 50px;
+	padding-top: 50px;
+}
+.equipo-big p{
+	font-size: 15px;
+	margin-left: 200px;
+}
+
+
+.calendario-big{
+	background-image: url("../design/calendario-big.jpg");
+}
+.instructorado-big{
+	background-image: url("../design/instructorado-big.jpg");
+}
+
+.masaje-big{
+	background-image: url("../design/masaje-big.jpg");
+}
+.masaje-big h1{
+	font-size: 40px;
+	margin-left: 400px;
+	padding-top: 100px;
+}
+.masaje-big p{
+	font-size: 15px;
+	margin-left: 570px;
+	margin-top: 7px;
+}
+
+.masaje_instructorado-big{
+	background-image: url("../design/masaje_instructorado-big.jpg");
+}
+.masaje_instructorado-big h1{
+	font-size: 30px;
+	margin-left: 400px;
+	padding-top: 100px;
+	color:#9E8C58;
+}
+.masaje_instructorado-big h2{
+	font-size: 20px;
+	margin-left: 400px;
+	margin-top: 7px;
+	color:#9E8C58;
+}
+
+/* big images eof*/
+.orta{
+	text-align: center;
+}
+.right-border{
+	border-right:solid 2px #F1ECD4; 
+}
+.three{
+	float: left;
+	width: 270px;
+	padding-left: 5px;
+}
+.message-box-big{
+	background-image: url("../design/message-box-big.png");
+	background-repeat:no-repeat;
+	width: 563px;
+	height: 154px;
+	text-align:center;
+	margin: 10px auto;
+	padding-top: 10px;
+}
+.ayrac-big{
+	background-image: url("../design/ayrac-big.png");
+	background-repeat:no-repeat;
+	width: 579px;
+	height: 39px;
+	margin: 10px auto;
+}
+
+.list li{
+	list-style: none;
+	background-image: url("../design/point.png");
+	background-repeat:no-repeat;
+	background-position: center left;
+	padding-left: 20px;
+	margin-top: 5px;
+}
+
+#buscar{
+	height: 30px;
+	text-align: right;
+	padding-right: 30px;
+	padding-top: 50px;
+}
+#buscar input{
+	border: solid 1px #999999;
+	padding: 0;
+	height: 18px;
+	width: 140px;
+	margin-left: 15px;
+}
+#buscar label{
+	font-family: "Century gothic";
+	font-size: 12pt;
+	color: #666666;
+	font-weight: normal;
+	vertical-align: top;
+}
+#foot-links{
+	padding-top: 130px;
+	text-align: center;
+}
+#foot-links li{
+	float: left;
+	padding: 20px 50px;
+}
+#foot-links img{
+	border: 0;
+}
+#foot-links a{
+	font-family: "Century gothic";
+	font-size: 10pt;
+	color: #666666;
+	text-decoration: none;
+}
+#foot-links a:HOVER{
+	color: #FF6600;
+}
+.quicklink {
+	display: block; 
+	padding: 2.7em 0 0 0; 
+	background-repeat: no-repeat; 
+	background-position: 50% 0%;
+}
+
+#content{
+	padding: 0 60px;
+	font-family: "Century gothic";
+	color: #333333;
+}
+
+#content p{
+	font-size: 13px;
+	margin-top: 10px;
+}
+#content h1{
+	font-size: 24px;
+	margin-top: 10px;
+}
+#content h2{
+	font-size: 18px;
+	margin-top: 10px;
+}
+.grey{
+	color: #333333;
+}
+.green{
+	color: #6e7102;
+}
+.green2{
+	color: #666600;
+	font-weight: bold;
+	font-size: 12px;
+}
+.orange{
+	color: #ff6600;
+}
+.orange2{
+	color: #FF9900;
+}
+#call-box{
+	background-image: url("../design/call-box.png");
+	background-repeat:no-repeat;
+	width: 350px;
+	height: 170px;
+	margin: 10px auto;
+	text-align: center;
+	padding-top: 15px;
+	font-family: "Century gothic";
+	font-size: 13px;
+	color: #990000;
+}
+
+.sub-link{
+	font-family: "Century gothic";
+	font-size: 14px;
+	color: #ff6600;
+	background-image: url("../design/butterfly.png");
+	background-repeat:no-repeat;
+	background-position: left center;
+	padding-left: 30px;
+	text-decoration: none;
+}
+.left{
+	float: left;
+	width: 400px;
+}
+.right{
+	float: right;
+	width: 400px;
+}

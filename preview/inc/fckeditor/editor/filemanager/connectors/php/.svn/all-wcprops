@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/repos/!svn/ver/27/GS/trunk/inc/fckeditor/editor/filemanager/connectors/php
+END
+connector.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/repos/!svn/ver/27/GS/trunk/inc/fckeditor/editor/filemanager/connectors/php/connector.php
+END
+basexml.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/repos/!svn/ver/27/GS/trunk/inc/fckeditor/editor/filemanager/connectors/php/basexml.php
+END
+phpcompat.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/repos/!svn/ver/27/GS/trunk/inc/fckeditor/editor/filemanager/connectors/php/phpcompat.php
+END
+util.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/repos/!svn/ver/27/GS/trunk/inc/fckeditor/editor/filemanager/connectors/php/util.php
+END
+commands.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/repos/!svn/ver/27/GS/trunk/inc/fckeditor/editor/filemanager/connectors/php/commands.php
+END
+upload.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/repos/!svn/ver/27/GS/trunk/inc/fckeditor/editor/filemanager/connectors/php/upload.php
+END
+config.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/repos/!svn/ver/27/GS/trunk/inc/fckeditor/editor/filemanager/connectors/php/config.php
+END
+io.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/repos/!svn/ver/27/GS/trunk/inc/fckeditor/editor/filemanager/connectors/php/io.php
+END

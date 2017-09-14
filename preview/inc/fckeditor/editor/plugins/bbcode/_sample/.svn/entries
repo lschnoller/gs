@@ -1,0 +1,54 @@
+8
+
+dir
+41
+http://97.74.206.70/repos/GS/trunk/inc/fckeditor/editor/plugins/bbcode/_sample
+http://97.74.206.70/repos
+
+
+
+2010-06-18T02:02:23.842636Z
+27
+svnuser2
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+abc8b6f5-aa08-41ee-a8d2-b3a099ed1233
+
+sample.config.js
+file
+
+
+
+
+2010-06-25T22:46:33.000000Z
+1021afe8d162c6bd397f7106913bb008
+2010-06-18T02:02:23.842636Z
+27
+svnuser2
+has-props
+
+sample.html
+file
+
+
+
+
+2010-06-25T22:46:33.000000Z
+3a09c36c3c2cb92f0b598e7d5454cb57
+2010-06-18T02:02:23.842636Z
+27
+svnuser2
+has-props
+

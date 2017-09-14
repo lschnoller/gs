@@ -1,0 +1,89 @@
+8
+
+dir
+41
+http://97.74.206.70/repos/GS/trunk/inc/fckeditor/editor/_source
+http://97.74.206.70/repos
+
+
+
+2010-06-18T02:02:23.842636Z
+27
+svnuser2
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+abc8b6f5-aa08-41ee-a8d2-b3a099ed1233
+
+internals
+dir
+
+fckeditorapi.js
+file
+
+
+
+
+2010-06-25T22:46:33.000000Z
+be993c25ae480524e0fbb472d3784abc
+2010-06-18T02:02:23.842636Z
+27
+svnuser2
+has-props
+
+fckjscoreextensions.js
+file
+
+
+
+
+2010-06-25T22:46:33.000000Z
+713f8981f8619e11f7b430ae4834b8fd
+2010-06-18T02:02:23.842636Z
+27
+svnuser2
+has-props
+
+fckscriptloader.js
+file
+
+
+
+
+2010-06-25T22:46:33.000000Z
+bc758f11290e77c8ffb414b74539965e
+2010-06-18T02:02:23.842636Z
+27
+svnuser2
+has-props
+
+fckconstants.js
+file
+
+
+
+
+2010-06-25T22:46:33.000000Z
+133aacaef51e93246fd9848c982ff526
+2010-06-18T02:02:23.842636Z
+27
+svnuser2
+has-props
+
+commandclasses
+dir
+
+classes
+dir
+

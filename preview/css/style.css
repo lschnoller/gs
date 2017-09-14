@@ -1,0 +1,335 @@
+@CHARSET "UTF-8";
+
+/* Body -------------------------------------------------------------- */
+html{
+	background-image: url("../design/bg.png");
+	background-repeat: repeat-x;
+	background-color: #DEE6D5;
+}
+body {color: #666; font-family: "Century Gothic", Arial, Helvetica, sans-serif; }
+#doc2{background-color: #fff;}
+/* Headings -------------------------------------------------------------- */ 
+h1,h2,h3,h4,h5,h6 { font-weight: normal; color: #666600; }
+h1 { font-size: 2.4em; line-height: 1; margin-bottom: 0.75em;color:#FF9900; }
+h2 { font-size: 1.9em; margin-bottom: 0.5em; color: #FF9900; }
+h3 { font-size: 1.5em; line-height: 1; margin-bottom: 1em; color:#FF9900; }
+h4 { font-size: 1.2em; line-height: 1.25; margin-bottom: .35em; }
+h5 { font-size: 1.1em; font-weight: normal; margin-bottom: 1.5em;color:#666600; }
+h6 { font-size: 1em; font-weight: bold; }
+h1 img, h2 img, h3 img, h4 img, h5 img, h6 img { margin: 0; }
+
+/* Text elements -------------------------------------------------------------- */
+p { margin: 0 0 1.5em; color:#666666;}
+p img.left { float: left; margin: 1.5em 1.5em 1.5em 0; padding: 0; }
+p img.right { float: right; margin: 1.5em 0 1.5em 1.5em; }
+a:focus, a:hover { color: #FF6600; text-decoration: none; }
+a { color: #999999; text-decoration: underline; }
+a.orange:HOVER{color:#999999}
+#hd a {text-decoration:none;}
+blockquote { margin: 1.5em; color: #666; font-style: italic; }
+span{color:#5B6F05;}
+strong { font-weight: bold; }
+em,dfn { font-style: italic; }
+dfn { font-weight: bold; }
+sup, sub { line-height: 0; }
+abbr, acronym { border-bottom: 1px dotted #666; }
+address { margin: 0 0 1.5em; font-style: italic; }
+del { color:#666; }
+pre { margin: 1.5em 0; white-space: pre; }
+pre,code,tt { font: 1em 'andale mono', 'lucida console', monospace; line-height: 1.5; }
+
+/* Lists -------------------------------------------------------------- */ 
+ul, ol { margin: 0 1.5em 1.5em 1.5em; }
+li { margin: 0 .3em;}
+ul { list-style-type: disc; }
+ol { list-style-type: decimal; }
+dl { margin: 0 0 1.5em 0; }
+dl dt { font-weight: bold; }
+dd { margin-left: 1.5em;}
+
+/* Tables -------------------------------------------------------------- */ 
+table { margin-bottom: 1.4em; width:100%; }
+th { font-weight: bold; }
+thead th { background: #c3d9ff; }
+th,td,caption { padding: 4px 10px 4px 5px; }
+tr.even td { background: #e5ecf9; }
+tfoot { font-style: italic; }
+caption { background: #eee; }
+
+/* Misc classes -------------------------------------------------------------- */ 
+.small { font-size: .8em; margin-bottom: 1.875em; line-height: 1.875em; }
+.large { font-size: 1.2em; line-height: 2.5em; margin-bottom: 1.25em; }
+.hide { display: none; } .quiet { color: #666; }
+.loud { color: #000; }
+.highlight { background:#ff0; }
+.added { background:#060; color: #fff; }
+.removed { background:#900; color: #fff; }
+.first { margin-left:0; padding-left:0; }
+.last { margin-right:0; padding-right:0; }
+.top { margin-top:0; padding-top:0; }
+.bottom { margin-bottom:0; padding-bottom:0; }
+
+/* Colors -------------------------------------------------------------- */ 
+.white{color: #fff;}
+.light{color: #999999;}
+.grey{color: #666666;}
+.dark{color: #333;}
+.orange{color: #FF6600;}
+.green{color: #5B6F05;}
+.darkgreen{color: #666600;}
+.purple{color: #990066;}
+.redish{color: #990000;}
+.bggrey{background-color:#F2F5EE;}
+
+/* Float -------------------------------------------------------------- */ 
+.fl{float: left;}
+.fr{float: right;}
+.cl{clear: left;}
+.cr{clear: right;}
+.cb{clear: both;}
+
+/* Align -------------------------------------------------------------- */ 
+.al{text-align: left;}
+.ar{text-align: right;}
+.ac{text-align: center;}
+
+/* BORDERs-------------------------------------------------------------- */
+.borderright{border-right: #F1F4ED 1px solid;}
+
+
+/* Icons -------------------------------------------------------------- */ 
+.icon{
+	background-image: url("../design/icons.png");
+	width: 80px;
+	height: 80px;
+	background-repeat: no-repeat;
+	display: block;
+	margin: 0 auto;
+	text-decoration: none;
+}
+.icon1{
+	background-position: 0 0;
+}
+.icon1:HOVER{
+	background-position: 0 -108px;
+}
+.icon2{
+	background-position: -95px 0;
+}
+.icon2:HOVER{
+	background-position: -95px -108px;
+}
+.icon3{
+	background-position: -184px 0;
+}
+.icon3:HOVER{
+	background-position: -184px -108px;
+}
+.icon4{
+	background-position: -272px 0;
+}
+.icon4:HOVER{
+	background-position: -272px -108px;
+}
+.icon5{
+	background-position: -360px 0;
+}
+.icon5:HOVER{
+	background-position: -360px -108px;
+}
+.icon6{
+	background-position: -445px 0;
+}
+.icon6:HOVER{
+	background-position: -445px -108px;
+}
+.icon7{
+	background-position: -538px 0;
+}
+.icon7:HOVER{
+	background-position: -538px -108px;
+}
+
+/* logo and stuff -------------------------------------------------------------- */
+#gs-logo{
+	background-image: url("../design/gs-logo.png");
+	background-repeat: no-repeat;
+	width: 411px;
+	height: 71px;
+	display: block;
+	float: left;
+}
+#mba-logo{
+	background-image: url("../design/mba-logo.png");
+	background-repeat: no-repeat;
+	width: 274px;
+	height: 74px;
+	display: block;
+	float: right;
+}
+#big-image{
+	position: relative;
+	width: 950px;
+	height: 373px;
+	background-repeat: no-repeat;
+}
+#home-image{
+	width: 950px;
+	height: 314px;
+	background-repeat: no-repeat;
+}
+#ft{
+	background-image: url("../design/footer.jpg");
+	background-repeat: no-repeat;
+	background-position: top;
+	background-color: #DEE6D5;
+}
+.msgbox{
+	background-image: url("../design/msgbox.jpg");
+	background-repeat: no-repeat;
+	width: 331px;
+	height: 71px;
+	margin: 0 auto;
+	color: #fff;
+	text-align: center;
+	padding-top: 15px;
+}
+.msgbox a,.msgbox-red{
+	color: #fff;
+}
+.msgbox-red{
+	background-image: url("../design/msgbox-red.jpg");
+	background-repeat: no-repeat;
+	width: 331px;
+	height: 71px;
+	margin: 0 auto;
+	color: #fff;
+	text-align: center;
+	padding-top: 15px;
+}
+.phone{
+	background-image: url("../design/phone.png");
+	background-repeat: no-repeat;
+	width: 394px;
+	height: 180px;
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 25px;
+}
+.msgbig{
+	background-image: url("../design/msgbig.png");
+	background-repeat: no-repeat;
+	width: 563px;
+	height: 154px;
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 25px;
+}
+.marzo{
+	background-image: url("../design/marzo.png");
+	background-repeat: no-repeat;
+	background-position: left center;
+	padding-left: 12px;
+	margin-bottom: .8em;
+}
+
+a.mas{
+	background-image: url("../design/bfly.png");
+	background-repeat: no-repeat;
+	background-position: left center;
+	padding: 0 28px;
+	text-decoration: none;
+	display: block;
+	height: 20px;
+	margin-top:8px;
+}
+.diff{
+	background-image: url("../design/diff.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 40px;
+	margin: 20px auto;
+}
+.hometabscont{
+	margin-top: -5em;
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
+}
+.hometab{
+	background-position: top center;
+	height: 200px;
+	width: 245px;
+	text-align: center;
+	background-repeat: no-repeat;
+	padding-top: 2.5em;
+}
+.hometab div{margin-top: 1em;}
+.hometab a{text-decoration: none;}
+.hometab1{background-image: url("../design/hometabs1.jpg");}
+.hometab2{background-image: url("../design/hometabs2.jpg");}
+.hometab3{background-image: url("../design/hometabs3.jpg");}
+/* divs -------------------------------------------------------------- */
+.c90{
+	width: 90%;
+	margin: 0 auto;
+	padding: 10px 0;
+}
+.c80{
+	width: 80%;
+	margin: 0 auto;
+	padding: 10px 0;
+}
+#buscar{
+	position: absolute;
+	left: 700px;
+	top: 330px;
+}
+#buscar input{
+	border: solid 1px #999999;
+	padding: 0;
+	height: 18px;
+	width: 140px;
+	margin-left: 15px;
+}
+#buscar label{
+	font-size: 12pt;
+	font-weight: normal;
+	vertical-align: top;
+}
+#back-url{
+	position: absolute;
+	left: 50px;
+	top: 350px;
+}
+#back-url a{
+	text-decoration: underline;
+	padding: 0 10px;
+}
+#ft .yui-gb,#ft .yui-g{
+	padding-top: 120px;
+}
+#ft a{
+	text-decoration: none;
+}
+#ft div{
+	text-align: center;
+}
+#ft div p{
+	width: 70%;
+	margin-left: 25%;
+	text-align: left;
+}
+.desci{
+	text-align: left;
+}
+
+
+
+
+
+
+
+
+
+
